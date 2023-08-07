@@ -6,10 +6,11 @@ import RowPost from './Components/RowPost/RowPost';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" style={{background:'#000'}}>
       <NavBar/>
       <Banner/>
-      <RowPost/>
+      <RowPost title='Netflix Originals'/>
+      <RowPost title='Action' isSmall />
     </div>
   );
 }
